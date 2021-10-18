@@ -1,0 +1,14 @@
+name:                ghc-prim-hsc-bug
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+- ghc-prim
+
+extra-source-files:
+- 'include/bla.h'
+
+library:
+  source-dirs: src
+  include-dirs:
+  - include

@@ -1,0 +1,25 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           ghc-prim-hsc-bug
+version:        0.1.0.0
+build-type:     Simple
+extra-source-files:
+    include/bla.h
+
+library
+  exposed-modules:
+      X
+  other-modules:
+      Paths_ghc_prim_hsc_bug
+  hs-source-dirs:
+      src
+  include-dirs:
+      include
+  build-depends:
+      base >=4.7 && <5
+    , ghc-prim
+  default-language: Haskell2010
